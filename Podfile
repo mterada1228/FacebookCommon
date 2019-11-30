@@ -7,6 +7,10 @@ target 'FacebookCommon' do
 
   # Pods for FacebookCommon
 
+	# Facebook SDK
+	pod 'FBSDKShareKit'
+
+	# Alamofire
 	pod 'Alamofire'
 
 end

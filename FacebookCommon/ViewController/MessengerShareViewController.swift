@@ -10,6 +10,10 @@ import UIKit
 
 // presenter output
 extension MessangerShareViewController: MessengerSharePresenterOutput {
+    // Alertの表示
+    func showAlert(_ alertController: UIAlertController) {
+        present(alertController, animated: true)
+    }
 }
 
 class MessangerShareViewController: UIViewController {

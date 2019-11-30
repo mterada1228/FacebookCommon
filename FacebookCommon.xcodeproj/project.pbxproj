@@ -13,7 +13,7 @@
 		F0697D6C2390F8330030720F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0697D6B2390F8330030720F /* Assets.xcassets */; };
 		F0697D6F2390F8330030720F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0697D6D2390F8330030720F /* LaunchScreen.storyboard */; };
 		F0697D7A2390F8B00030720F /* MessengerSharePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0697D792390F8B00030720F /* MessengerSharePresenter.swift */; };
-		F0697D7D2390F8CF0030720F /* APIManegerCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0697D7C2390F8CF0030720F /* APIManegerCommon.swift */; };
+		F0697D7D2390F8CF0030720F /* APIManegerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0697D7C2390F8CF0030720F /* APIManegerModel.swift */; };
 		F0697D7F2390F8DF0030720F /* MessengerShareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0697D7E2390F8DF0030720F /* MessengerShareModel.swift */; };
 		F0697D81239102400030720F /* MessengerShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0697D80239102400030720F /* MessengerShareViewController.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +29,7 @@
 		F0697D6E2390F8330030720F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0697D702390F8330030720F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0697D792390F8B00030720F /* MessengerSharePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerSharePresenter.swift; sourceTree = "<group>"; };
-		F0697D7C2390F8CF0030720F /* APIManegerCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManegerCommon.swift; sourceTree = "<group>"; };
+		F0697D7C2390F8CF0030720F /* APIManegerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManegerModel.swift; sourceTree = "<group>"; };
 		F0697D7E2390F8DF0030720F /* MessengerShareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerShareModel.swift; sourceTree = "<group>"; };
 		F0697D80239102400030720F /* MessengerShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessengerShareViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,7 +124,7 @@
 		F0697D7B2390F8BC0030720F /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				F0697D7C2390F8CF0030720F /* APIManegerCommon.swift */,
+				F0697D7C2390F8CF0030720F /* APIManegerModel.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -248,7 +248,7 @@
 				F0697D81239102400030720F /* MessengerShareViewController.swift in Sources */,
 				F0697D652390F8320030720F /* AppDelegate.swift in Sources */,
 				F0697D7F2390F8DF0030720F /* MessengerShareModel.swift in Sources */,
-				F0697D7D2390F8CF0030720F /* APIManegerCommon.swift in Sources */,
+				F0697D7D2390F8CF0030720F /* APIManegerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

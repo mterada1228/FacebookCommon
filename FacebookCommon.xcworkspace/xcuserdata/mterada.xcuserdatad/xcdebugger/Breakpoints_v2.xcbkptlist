@@ -1,22 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "F4F93FE0-41FB-41BF-B547-FF0064B34B92"
    type = "0"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "4DC02171-0713-4150-A6E5-134D27E065B1"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FacebookCommon/ViewController/MessengerShareViewController.swift"
-            timestampString = "596706515.322976"
+            timestampString = "596707694.7878799"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45AF34AC-970A-495E-B18D-DB8D339078E6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FacebookCommon/Model/MessengerShareModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "sendMediaTempleteContent(attachmentId:pageID:url:urlBtnTitle:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8BFAD6E6-210C-441F-89BF-D346C91B52BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FacebookCommon/Model/MessengerShareModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "sendMediaTempleteContent(attachmentId:pageID:url:urlBtnTitle:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8BFAD6E6-210C-441F-89BF-D346C91B52BD - 7d2916d1c523167"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FacebookCommon.MessangerShareModel.sendMediaTempleteContent(attachmentId: Swift.String, pageID: Swift.String, url: Swift.Optional&lt;Swift.String&gt;, urlBtnTitle: Swift.Optional&lt;Swift.String&gt;, completion: (FacebookCommon.Result&lt;Swift.String, Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FacebookCommon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mterada/dev/CommonModule/FacebookCommon/FacebookCommon/Model/MessengerShareModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "2032">
+               </Location>
+               <Location
+                  uuid = "8BFAD6E6-210C-441F-89BF-D346C91B52BD - ddf93e0ddbbe09f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in FacebookCommon.MessangerShareModel.sendMediaTempleteContent(attachmentId: Swift.String, pageID: Swift.String, url: Swift.Optional&lt;Swift.String&gt;, urlBtnTitle: Swift.Optional&lt;Swift.String&gt;, completion: (FacebookCommon.Result&lt;Swift.String, Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FacebookCommon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mterada/dev/CommonModule/FacebookCommon/FacebookCommon/Model/MessengerShareModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -9,7 +9,7 @@
 import Foundation
 import Alamofire
 
-// result タイプのセット
+// resultのenum
 enum Result<T,Error> {
     case success(T)
     case failure(Error)

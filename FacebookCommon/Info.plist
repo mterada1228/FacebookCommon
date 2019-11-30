@@ -41,5 +41,43 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>CFBundleTypeRole</string>
+                <string>Editor</string>
+                <!-- アプリごとに設定 -->
+                <string>facebookアプリIDを設定（fbから）</string>
+            </array>
+        </dict>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>CFBundleURLName</key>
+            <string>fbMessenger</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb-messenger</string>
+            </array>
+        </dict>
+    </array>
+    <key>FacebookAppID</key>
+    <!-- アプリごとに設定 -->
+    <string>facebookアプリIDを設定（fbなし）</string>
+    <key>FacebookDisplayName</key>
+    <!-- アプリごとに設定 -->
+    <string>facebookアプリ名を設定</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>lineauth2</string>
+        <string>fbapi</string>
+        <string>fb-messenger-share-api</string>
+        <string>fbauth2</string>
+        <string>fbshareextension</string>
+    </array>
 </dict>
 </plist>
